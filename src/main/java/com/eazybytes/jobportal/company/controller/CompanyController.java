@@ -10,6 +10,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class CompanyController {
     @GetMapping(version = "1.0")
     public ResponseEntity<String> getAllCompanies() {
-        return ResponseEntity.ok().body("Updated Companies List");
+        return ResponseEntity.ok().body("Companies List");
     }
 }
